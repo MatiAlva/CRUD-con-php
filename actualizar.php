@@ -31,7 +31,7 @@ $row=mysqli_fetch_array($query);
                                 <input type="text" class="form-control mb-3" name="marca" placeholder="Marca " value="<?php echo $row['marca']  ?>">
                                 <input type="text" class="form-control mb-3" name="modelo" placeholder="Modelo" value="<?php echo $row['modelo']  ?>">
                                 <input type="color" class="form-control mb-3" name="color" placeholder="Patente" value="<?php echo $row['color']  ?>">
-                                <input type="varchar" class="form-control mb-3" name="patente" placeholder="Patente" value="<?php echo $row['patente']  ?>">
+                                <input type="text" class="form-control mb-3" name="patente" placeholder="Patente" value="<?php echo $row['patente']  ?>">
                                 <input type="date" class="form-control mb-3" name="año" placeholder="Año" value="<?php echo $row['año']  ?>">
                                 <input type="int" class="form-control mb-3" name="km" placeholder="Km" value="<?php echo $row['km']  ?>">
                                 
