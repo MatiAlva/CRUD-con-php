@@ -35,7 +35,7 @@
                     <input type="text" name="modelo" placeholder="Modelo"/>
                     <h3> Ingrese el color: </h3>
                     <input type="color" name="color" placeholder="Color" class="color"/>
-                    <input type="int" name="patente" placeholder="Patente"/>
+                    <input type="text" name="patente" placeholder="Patente"/>
                     <h3> Año de su compra: </h3>
                     <input type="date" name="año" placeholder="Año"/>
                     <input type="int" name="km" placeholder="Kilometros recorridos"/>
